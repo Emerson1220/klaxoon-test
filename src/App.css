@@ -1,18 +1,11 @@
-.App {
-  text-align: center;
-}
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css';
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.previewContainerModal > .modal-content {
+  background: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+td {
+  vertical-align: middle !important;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +21,31 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination {
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#search {
+  width: 70%;
+  position: relative;
+  margin: 20px auto;
+}
+
+#previewSearch {
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#previewSearch .card-body {
+  display: flex;
+  justify-content: space-around;
 }
