@@ -17,7 +17,7 @@ function Formulair({ onSave, onDiscard, data }) {
     <>
       <Modal show={true} onHide={onDiscard}>
         <Modal.Header closeButton>
-          <Modal.Title>formulair</Modal.Title>
+          <Modal.Title>formulaire</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form id='formModal'>
